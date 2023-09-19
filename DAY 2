@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int t;
+  
+cin >> t;
+  
+int i = 0;
+  
+while (i < t)
+    {
+      
+int X,Y,Z;
+// X IS NO OF 5 RUPEES COIN
+// Y IS NO OF 10 RUPEES COIN
+//Z IS THE PRICE OF ONE ITEM
+      
+cin >> X>>Y>>Z;
+ cout<<(X*5+Y*10)/Z<<endl;
+      
+
+}
+
+}
