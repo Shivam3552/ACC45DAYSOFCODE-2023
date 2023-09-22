@@ -1,0 +1,29 @@
+
+#include<iostream>
+using namespace std;
+int
+main ()
+{
+  
+int t;
+  
+cin >> t;
+  
+int i = 0;
+  
+while (i < t)
+    {
+      
+int N;
+//  N IS NO OF HOOPS
+cin>>N;
+cout<<(N+1)/2<<endl;
+
+      
+
+i++;
+      
+
+}
+
+}
