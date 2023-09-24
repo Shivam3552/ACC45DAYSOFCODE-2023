@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int t;
+  
+cin >> t;
+  
+int i = 0;
+  
+while (i < t)
+    {
+      
+int Pa,Pb,Pc;
+ //Pa is no of people residing in region a    
+//Pb is no of people residing in region b
+//Pc is no of people residing in region c
+      
+cin >> Pa>>Pb>>Pc;
+ if(Pa+Pc>Pb){
+   cout<<Pa+Pc<<endl;
+ }
+ else{
+   cout<<Pb<<endl;
+ }
+  i++;    
+
+}
+
+}
